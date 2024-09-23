@@ -354,5 +354,5 @@ async def run_agent(max_retries=3, testrail_csv_path: Optional[str] = None):
 
 
 if __name__ == "__main__":
-    testrail_csv_path = "C:\\Users\\Kalvin.north\\work\\SuperAgentBoi\\nano___pico_market.csv"
+    testrail_csv_path = ""
     asyncio.run(run_agent(testrail_csv_path=testrail_csv_path))
